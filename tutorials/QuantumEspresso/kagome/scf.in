@@ -5,6 +5,8 @@
    tstress      = .false.
    !nstep        = 4
    pseudo_dir   = '/home/buxuande/pseudo/nc-sr-05_pbe_standard_upf'
+   prefix       = 'kagome_221'
+   wf_collect   = .true.
    outdir       = './tmp'
    verbosity    = 'medium'
    !td_is_on     = .true.
